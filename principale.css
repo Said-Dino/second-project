@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", serif;
+    padding:0;
+    margin:0;
+ }
+ a{color:white; text-decoration: none;}
+body{
+    background-image: url(images/l.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.logo:hover{
+    color:black;
+    background-color: white;
+}
+ul{
+    width: 60%;
+    list-style: none ;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    border-bottom: 2px solid transparent;
+}
+ul a:hover {
+    border-color: white;
+}
+.content{
+    background: rgba(255, 255, 255, 0.404);
+    width: 30%;
+    margin: top 0;;
+    padding: 10px;px;
+}
+.content h2{
+    color:black;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.content p{
+    font-size: 19px;
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 0;
+    color:blue;
+}
+.jdid {
+    background-color: white;
+    color:black solid;
+    margin:10px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+input{
+    border:none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+
+}
+.head{
+    transition: 0.5s;
+    padding: 5px ;
+    border-radius: 8px;
+}
+.head:hover{
+    background: white;
+    color :rgb(29, 29, 192);
+}
