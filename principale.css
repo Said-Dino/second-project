@@ -39,32 +39,34 @@ ul a:hover {
     border-color: white;
 }
 .content{
-    background: rgba(255, 255, 255, 0.404);
-    width: 30%;
-    margin: top 0;;
-    padding: 10px;px;
+    /* background: rgba(255, 255, 255, 0.404); */
+    width: 100%;
+    padding: 10px;
 }
 .content h2{
     color:black;
     font-size: 20px;
     text-transform:capitalize;
+    width: 98%;
+    margin-left: 1%;
 }
 .content p{
     font-size: 19px;
-    letter-spacing: 3px;
-    width: 350px;
-    padding: 0;
-    color:blue;
+    margin: auto;
+    letter-spacing: 5px;
+    width: 98%;
+    padding: 5px;
+    color:white;
 }
-.jdid {
+.div-form {
     background-color: white;
-    color:black solid;
+    color:black;
     margin:10px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    height: 50px;
+    height: 3rem;
     width: 90%;
     padding: 0 10px;
     box-sizing: border-box;
@@ -85,3 +87,34 @@ input{
     background: white;
     color :rgb(29, 29, 192);
 }
+
+
+@media (max-width:1000px) {
+        .content h2{
+            font-size: 15px;
+        }
+        .content p{
+            font-size: 14px;
+        }
+        .div-form{
+            height: 2rem;
+        }
+        input{
+            font-size: 15px;
+        }
+}
+
+ @media (max-width: 400px) {
+        .content h2{
+            font-size: 10px;
+        }
+        .content p{
+            font-size: 10px;
+        }
+        .div-form{
+            height: 1rem;
+        }
+        input{
+            font-size: 10px ;
+        }         
+    } 
