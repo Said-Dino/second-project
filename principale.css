@@ -90,6 +90,9 @@ input{
 
 
 @media (max-width:1000px) {
+        .logo{
+            font-size: 20px;
+        }
         .content h2{
             font-size: 15px;
         }
@@ -105,6 +108,9 @@ input{
 }
 
  @media (max-width: 400px) {
+        .logo{
+            font-size: 10px;
+        }
         .content h2{
             font-size: 10px;
         }
