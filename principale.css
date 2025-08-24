@@ -34,6 +34,7 @@ ul{
 }
 ul a {
     border-bottom: 2px solid transparent;
+    width: 90%;
 }
 ul a:hover {
     border-color: white;
@@ -105,10 +106,19 @@ input{
         input{
             font-size: 15px;
         }
+        ul{
+            width: 30rem;
+        }
 }
 
  @media (max-width: 400px) {
         .logo{
+            font-size: 10px;
+        }
+        ul{
+            width: 16rem;
+        }
+        ul a {
             font-size: 10px;
         }
         .content h2{
